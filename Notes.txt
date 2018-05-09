@@ -1,0 +1,37 @@
+Website = https://docs.freitagsrunde.org/Klausuren/
+
+Notes for freitagsrunde:
+------------------------
+    - charset has to stay UTF-8
+
+External Dependencys:
+---------------------
+    - github.com/jroimartin/gocui
+
+Structure of Website:
+---------------------
+
+    index:
+    ------
+
+        <html>
+            <body>
+                <div lang="de">
+                    <table id="indexlist">
+                        <tbody>
+                            <tr class="indexhead">  // unimportant
+                            <tr class="even">       // unimportant
+                            <tr class="odd">        // FIRST exam collection
+                                <td class="indexcolname">
+                                    <a href="LINK">
+                                        NAME OF COURSE
+                        
+                            <tr class="even">       // SECOND exam collection
+                                ... 
+                    
+                            ...
+
+                        </tbody>
+                    ...
+
+
