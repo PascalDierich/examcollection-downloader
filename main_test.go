@@ -64,31 +64,31 @@ func TestInitDirectory(t *testing.T) {
 	}
 }
 
-func TestGetFileExtension(t *testing.T) {
-	from := []string{
-		"hallo.txt",
-		"hal.lo.txt",
-		"hallo..pdf",
-		".hallo.txt",
-		"hallo",
-	}
-	want := []string{
-		".txt",
-		".txt",
-		".pdf",
-		".txt",
-		"",
-	}
-	var got []string
+// func TestGetFileExtension(t *testing.T) {
+// 	from := []string{
+// 		"hallo.txt",
+// 		"hal.lo.txt",
+// 		"hallo..pdf",
+// 		".hallo.txt",
+// 		"hallo",
+// 	}
+// 	want := []string{
+// 		".txt",
+// 		".txt",
+// 		".pdf",
+// 		".txt",
+// 		"",
+// 	}
+// 	var got []string
 
-	for _, s := range from {
-		g := getFileExtension(s)
-		got = append(got, g)
-	}
+// 	for _, s := range from {
+// 		g := getFileExtension(s)
+// 		got = append(got, g)
+// 	}
 
-	for i, s := range got {
-		if want[i] != s {
-			t.Errorf("got=%s, want=%s", s, want[i])
-		}
-	}
-}
+// 	for i, s := range got {
+// 		if want[i] != s {
+// 			t.Errorf("got=%s, want=%s", s, want[i])
+// 		}
+// 	}
+// }
