@@ -1,3 +1,20 @@
+// Examcollection-Downloader is a terminal UI based application to download
+// old exams from the TU Berlin.
+//
+// The old exams and other material is provided by the freitagsrunde,
+// https://wiki.freitagsrunde.org/Hauptseite.
+//
+// The CLI creates a folder ``old_exams`` with path specified by the
+// ``-p`` flag (defaults to home directory).
+//
+// Keybindings:
+//
+//		<arrow-keys> - move vertically and horizontally
+//		<enter>      - open exams OR start dowload
+//		<space>      - mark exam to download it
+//		<ctrl-d>     - download all exams for given course
+//		<ctrl-c>     - exit
+//
 package main
 
 import (
