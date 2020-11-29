@@ -1,7 +1,5 @@
 # ExamCollection Downloader
 
-`go get go.pascaldierich.com/examcollection-downloader`
-
 The _examcollection-downloader_ is a terminal UI based application to support a __faster__ and __easier__ way to download old exams used by the TU Berlin.
 
 ## Internals
